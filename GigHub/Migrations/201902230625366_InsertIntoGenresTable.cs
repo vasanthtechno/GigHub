@@ -6,10 +6,10 @@ namespace GigHub.Migrations
     {
         public override void Up()
         {
-            Sql("INSERT INTO GENRES VALUES (1, 'Jazz')");
-            Sql("INSERT INTO GENRES VALUES (2, 'Pop')");
-            Sql("INSERT INTO GENRES VALUES (3, 'Jazz')");
-            Sql("INSERT INTO GENRES VALUES (4, 'Jazz')");
+            Sql("INSERT INTO GENRES(NAME) VALUES (1, 'Jazz')");
+            Sql("INSERT INTO GENRES(NAME) VALUES (2, 'Pop')");
+            Sql("INSERT INTO GENRES(NAME) VALUES (3, 'Jazz')");
+            Sql("INSERT INTO GENRES(NAME) VALUES (4, 'Jazz')");
         }
         
         public override void Down()
