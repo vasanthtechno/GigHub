@@ -1,4 +1,5 @@
 ﻿
+using System;
 using System.ComponentModel.DataAnnotations;
 namespace GigHub.Models
 {
@@ -14,10 +15,7 @@ namespace GigHub.Models
         public string Venue { get; set; }
 
         [Required]
-        public string Date { get; set; }
-
-        [Required]
-        public string Time { get; set; }
+        public DateTime DateTime { get; set; }
 
         [Required]
         public Genre Genre { get; set; }
