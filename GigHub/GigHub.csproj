@@ -198,6 +198,10 @@
     <Compile Include="Migrations\201902230625366_InsertIntoGenresTable.Designer.cs">
       <DependentUpon>201902230625366_InsertIntoGenresTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902270522297_AddForiegnKeyPropertiestoGigsTable.cs" />
+    <Compile Include="Migrations\201902270522297_AddForiegnKeyPropertiestoGigsTable.Designer.cs">
+      <DependentUpon>201902270522297_AddForiegnKeyPropertiestoGigsTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -207,6 +211,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\GigFormViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -334,6 +339,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902230625366_InsertIntoGenresTable.resx">
       <DependentUpon>201902230625366_InsertIntoGenresTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902270522297_AddForiegnKeyPropertiestoGigsTable.resx">
+      <DependentUpon>201902270522297_AddForiegnKeyPropertiestoGigsTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
